@@ -1,7 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-
 def getViews(url):
 	html=urlopen(url)
 	bsObj = BeautifulSoup(html,"lxml")
