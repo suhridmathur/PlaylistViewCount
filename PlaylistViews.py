@@ -34,7 +34,7 @@ for i in range(0,len(a)):
 
 	
 totalViews=0
-for i in range(42,len(url)):
+for i in range(0,len(url)):
         x=getViews(url[i])
         print("Views of Video "+str(i+1)+":"+str(x))
         totalViews+=x
